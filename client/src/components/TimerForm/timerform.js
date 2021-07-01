@@ -81,6 +81,7 @@ class TimerForm extends React.Component {
         </div>
         <button
           className="btn btn-primary btn-block"
+          data-cy="SaveSessionButton"
           onClick={this.submit.bind(this)}
           disabled={this.state.isOn || !this.state.name || !this.state.time}
         >
