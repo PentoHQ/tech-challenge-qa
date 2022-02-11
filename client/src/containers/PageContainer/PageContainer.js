@@ -3,12 +3,12 @@ import { connect } from 'react-redux'
 import Nav from '../../components/Nav/nav'
 
 const PageContainer = (props) => (
-  <div className="container">
+  <div className="container" data-cy="AppContainer">
     <div className="row align-items-center page-container">
       <div className="col align-self-center page-container-border">
         <div className="jumbotron">
-          <h1 className="display-4">Time Tracking Application</h1>
-          <p className="lead">
+          <h1 className="display-4" data-cy="AppHeader">Time Tracking Application</h1>
+          <p className="lead" data-cy="AppDescription">
             This is a simple application to allow freelancers to track their
             time.
           </p>

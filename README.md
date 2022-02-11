@@ -50,3 +50,12 @@ Before getting started you will need Docker, Docker Compose and Node on your sys
 - Go to the root directory and run `docker-compose up`
 
 This starts both the client and the server with automatic reloading when saving.
+
+## How to run the tests
+
+The tests can be ran from wthin the `client` folder. 
+
+1. Make sure the application is running (run `docker-compose up` from the root folder)
+2. Go into the client folder (`cs client`)
+3. To launch the cypress GUI use command `npm run cypress:open`
+4. To run the tests in the CLI (headless mode) use command `npm run cypress:run`

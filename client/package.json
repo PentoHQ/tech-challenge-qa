@@ -22,7 +22,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "cypress:open": "node_modules/.bin/cypress open",
+    "cypress:run": "node_modules/.bin/cypress run"
   },
   "proxy": "https://server:3001",
   "eslintConfig": {
@@ -34,5 +36,8 @@
     "not ie <= 11",
     "not op_mini all"
   ],
-  "devDependencies": {}
+  "devDependencies": {
+    "cypress": "^7.6.0",
+    "typescript": "^4.3.5"
+  }
 }
