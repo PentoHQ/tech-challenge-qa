@@ -25,6 +25,7 @@ const Nav = (props) => {
       <li className="nav-item">
         <Link
           className="btn btn-secondary btn-sm"
+          data-cy="btnSessionToggle"
           to={{
             pathname: buttonPaths[path],
           }}
