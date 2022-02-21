@@ -31,6 +31,7 @@ const Nav = (props) => {
           }}
         >
           {buttonNames[path]}
+
         </Link>
       </li>
     </ul>

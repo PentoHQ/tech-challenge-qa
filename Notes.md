@@ -134,8 +134,6 @@ I have created a test that runs before on a clean environment (before any data h
 ***POST Request***
 I have created a helper command in `support/command.js` that creates a new record using the POST endpoint.  I have used this in the UI tests to bypass the app (quicker and best practice) to create a new timer record and verify that
 * 200 Status Code is received
-* Response time is less than 200 milliseconds
-
 
 I have also created a Postman Collection and Environment.  
 These files are in the `postman_artefacts` folder.
@@ -152,7 +150,7 @@ No additional reporting added. sorry
 
 ------------------------------------------------------------------------------------------------------------------------
 
-**GitActions**
+**Github Actions**
 I will be honest and say I haven't used Github Actions previously, so felt it would take too long to learn and implement a solution I would be happy with. I would need to take into consideration the docker containers, which again is not something I have used recently, always having static test environments to work from in my last 3 companies (I understand how they work but it would take some time to understand the app to fully implement a good solution).  
 
 I have experience of Jenkins and also running a pipeline utilising octopus (I worked with the DevOps developer at Floww to learn this so I could own both manual and automated deploys to the static test environments)

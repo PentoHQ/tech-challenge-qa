@@ -9,8 +9,8 @@ describe('Verify the GET API Endpoint', () => {
                     expect(response.duration).to.be.lessThan(200)
             })
     });
-
-    it('Create a new session using the UI', () => {
+    
+    it('Test POST Request creates a new record and returns correct status code and in a timely manner ', () => {
         cy.createUserViaApi()
     });
 })
