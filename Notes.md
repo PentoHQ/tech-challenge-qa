@@ -146,7 +146,8 @@ These files are in the `postman_artefacts` folder.
 ------------------------------------------------------------------------------------------------------------------------
 
 **Reporting**
-No additional reporting added. sorry
+I have added in the MochaAwesome Report plugin.  It generates a nice HTML report after each run.  
+It is located in ../tech-challenge-qa/cypress/reports/html/index.html
 
 ------------------------------------------------------------------------------------------------------------------------
 
