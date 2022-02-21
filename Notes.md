@@ -35,7 +35,6 @@ I saved a new timer session using only spaces as the title.  This should not be 
 * Input only spaces using the spacebar in the New Session field
 * Press start and wait for a couple of seconds to pass then press stop
 * Press the save button when its active
-* 
 
 ***Expected Result***
 For best practice, the user should have seen an error message when saving "Entering only spaces isn't permitted in this field" title when they attempt to save the record" (ideally we coud do this as soon as the title field loses focus, i.e.: when they select another element on the page)
@@ -56,7 +55,6 @@ I saved a new timer session using more than 50 characters as the title.  This sh
 * Input more than 50 characters in the New Session field
 * Press start and wait for a couple of seconds to pass then press stop
 * Press the save button when its active
-* 
 
 ***Expected Result***
 For best practice the title should have a max character length
@@ -106,7 +104,7 @@ This is a good practice as should someone refactor and change the actual element
 * To run the API tests in the CLI (headless mode) use command `npm run cypress:run ui`
 
 **Automated Tests Details**
-Cypress Tests written `ui\createSeesion.spec.js` for the previously found bugs some of these should form part of a end to end test suite run as part of an CI/CD build pipeline (I would probably remove the field validation tests after fixing as they are low priority tests)
+Cypress Tests written `ui\createSession.spec.js` for the previously found bugs some of these should form part of a end to end test suite run as part of an CI/CD build pipeline (I would probably remove the field validation tests after fixing as they are low priority tests)
 
 ***Create a new session and save it***  
 This is the standard test to verify the app works as intended. It creates a new user record and saves the record.  NOTE: This test currently fails due to Bug #1 so I have commented out the save to make the test pass (in reality I would leave normally comment the whole test out until the bug was fixed - referencing the spec file to the bug to ensure it is uncommented once fixed)
