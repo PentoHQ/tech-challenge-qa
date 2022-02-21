@@ -1,5 +1,6 @@
 {
   "baseUrl":"http://localhost:3000",
   "projectId": "6gzf9f",
+  "reporter": "cypress-mochawesome-reporter",
   "testfiles": "**/*.js"
 }

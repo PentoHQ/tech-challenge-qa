@@ -1,4 +1,6 @@
 .vscode
 .DS_Store
 node_modules
-downloads
+downloads/
+reports/
+videos/

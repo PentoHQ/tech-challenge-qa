@@ -2,9 +2,8 @@
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "@types/mocha": "^9.1.0",
-    "cypress": "^9.5.0"
-  },
-  "dependencies": {
+    "cypress": "^9.5.0",
+    "cypress-mochawesome-reporter": "^2.3.0"
   },
   "scripts": {
     "cypress:open": "node_modules/.bin/cypress open",
