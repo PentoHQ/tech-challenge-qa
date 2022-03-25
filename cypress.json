@@ -1,1 +1,16 @@
-{}
+{
+  "video": false,
+  "chromeWebSecurity": false,
+  "download.default_directory": "./",
+  "download.prompt_for_download": 0,
+  "defaultCommandTimeout": 20000,
+  "watchForFileChanges": false,
+  "viewportWidth": 1280,
+  "viewportHeight": 720,
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "overwrite": false,
+    "html": false,
+    "json": true
+  }
+}
