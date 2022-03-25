@@ -7,6 +7,8 @@
     "test:ui": "cypress run --config integrationFolder='cypress/integration/RegressionTestSuite/ui'",
     "cypress:api": "cypress open --config integrationFolder='cypress/integration/RegressionTestSuite/api'",
     "test:api": "cypress run --config integrationFolder='cypress/integration/RegressionTestSuite/api'",
+    "cypress:headed": "cypress open --config integrationFolder='cypress/integration/'",
+    "test:headless": "cypress run --config integrationFolder='cypress/integration/'",
     "cypress": "cypress open",
     "test": "cypress run",
     "cypress:verify": "cypress verify",
