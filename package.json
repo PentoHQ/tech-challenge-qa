@@ -12,8 +12,6 @@
     "cypress": "cypress open",
     "test": "cypress run",
     "cypress:verify": "cypress verify",
-    "cypress:version": "cypress version",
-    "lint:fix": "prettier --write \"cypress/**/*.js\"",
     "clean-reports": "rm -rf cypress/report",
     "merge-report": "mochawesome-merge ./mochawesome-report/*.json -o testReport.json",
     "generate-report": "marge testReport.json --reportDir report --assetsDir report/assets --reportPageTitle testReport.html"
@@ -40,9 +38,7 @@
     ]
   },
   "devDependencies": {
-    "cypress-file-upload": "^4.1.1",
     "husky": "^4.3.0",
-    "lint-staged": "^10.4.0",
     "prettier": "^1.19.1"
   }
 }
