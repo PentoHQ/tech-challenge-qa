@@ -30,6 +30,9 @@ jobs:
       env:
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
 
+    - name: Run app
+      run: docker-compose up
+
     - name: Run Tests
       run: npm run test:headless
 

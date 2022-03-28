@@ -1,13 +1,9 @@
 {
   "name": "qa-challenge-pento",
-  "version": "1",
+  "version": "",
   "description": "API and UI Tests for Pento QA Challenge",
   "scripts": {
-    "cypress:ui": "cypress open --config integrationFolder='cypress/integration/RegressionTestSuite/ui'",
-    "test:ui": "cypress run --config integrationFolder='cypress/integration/RegressionTestSuite/ui'",
-    "cypress:api": "cypress open --config integrationFolder='cypress/integration/RegressionTestSuite/api'",
-    "test:api": "cypress run --config integrationFolder='cypress/integration/RegressionTestSuite/api'",
-    "cypress:headed": "cypress open --config integrationFolder='cypress/integration/'",
+    "test:headed": "cypress open --config integrationFolder='cypress/integration/'",
     "test:headless": "cypress run --config integrationFolder='cypress/integration/'",
     "cypress": "cypress open",
     "test": "cypress run",
